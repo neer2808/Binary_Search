@@ -1,4 +1,25 @@
 import java.util.Scanner;
+// searching : = Im a group of data to search a particular data is known as searching
+// Two types of searching : -  Linear Search and Binary Search
+
+// Binary search is the fast searching algorithm with time complexity O(log n)
+// Based on divide and conquer strategy
+
+// Three rules
+
+// For Binary search  array must be sorted
+
+// then
+// find the mid point   (left + right)/2
+// left = given array first element
+// right = given array last element
+
+// then
+// we perform comparision
+// condition 1   if arr[mid] == search_value
+// condition 2   if arr[mid] < search_value
+// condition 3   if arr[mid] > search_value
+
 
 public class Searching_program {
   public static int BinarySearch(int search_data)

@@ -9,7 +9,6 @@
 
 //after completing all the above steps we will get the sorted array
 
-
 public class InsertionSort {
   public static void main(String[] args) {
     int val ;
@@ -33,6 +32,7 @@ public class InsertionSort {
       arr[j+1] = val;
 
     }
+// loop to display the contents
 
     for(int i = 0;i<arr.length;i++)
     {
