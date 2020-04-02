@@ -1,10 +1,26 @@
+//In insertion sort we take the array and divide it into two parts  i.e sorted  or unsorted
+
+// then we go to the unsorted array and take the first element from it and then we find the exact position  of the
+
+// element in the sorted array and we place it in the sorted array
+
+// after completing this step we  continue doing the same steps till unsorted array is not empty
+
+
+//after completing all the above steps we will get the sorted array
+
+
+
+
+
+
 public class InsertionSort {
   public static void main(String[] args) {
     int val ;
 
     int j ;
-    int arr[] = {30, 10, 50, 20, 40, 40};
-    for(int i =1;i<arr.length;i++)
+    int arr[] = {30, 10, 50, 20, 90, 40};
+    for(int i =0;i<arr.length;i++)
     {
       val = arr[i];
       j = i-1;
